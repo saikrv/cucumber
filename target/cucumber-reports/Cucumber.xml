@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.35894">
+<testcase classname="verify the accepted criteria for the given REST API." name="GET Reponse body values to be asserted" time="5.35894">
+<system-out><![CDATA[When User submit the GET request as per the data in  Json/property file  "Carbon credits".passed
+And User should validate success status code  "200".........................passed
+And User should validate response for boolean value "true"..................passed
+Then User should validate response body list values for  "Gallery" ,"2x larger image in desktop site search results".passed
+]]></system-out>
+</testcase>
+</testsuite>

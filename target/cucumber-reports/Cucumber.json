@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 566397400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GET_ResponseAcceptedCriteria.configloader(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "GET Reponse body values to be asserted",
+        "description": "",
+        "id": "verify-the-accepted-criteria-for-the-given-rest-api.;get-reponse-body-values-to-be-asserted;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3243062300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User submit the GET request as per the data in  Json/property file  \"Carbon credits\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Carbon credits",
+                  "offset": 69
+                }
+              ],
+              "location": "GET_ResponseAcceptedCriteria.user_submit_the_GET_request_as_per_the_data_in_Json_property_file(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1500854300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should validate success status code  \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 43
+                }
+              ],
+              "location": "GET_ResponseAcceptedCriteria.user_should_validate_success_status_code(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41368900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should validate response for boolean value \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 49
+                }
+              ],
+              "location": "GET_ResponseAcceptedCriteria.user_should_validate_response_for_boolean_value(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7257200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should validate response body list values for  \"Gallery\" ,\"2x larger image in desktop site search results\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gallery",
+                  "offset": 53
+                },
+                {
+                  "val": "2x larger image in desktop site search results",
+                  "offset": 64
+                }
+              ],
+              "location": "GET_ResponseAcceptedCriteria.user_should_validate_response_body_list_values_for(String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@acceptance"
+          }
+        ]
+      }
+    ],
+    "name": "verify the accepted criteria for the given REST API.",
+    "description": "",
+    "id": "verify-the-accepted-criteria-for-the-given-rest-api.",
+    "keyword": "Feature",
+    "uri": "Get_Response_AcceptedCriteria.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@acceptance"
+      }
+    ]
+  }
+]
