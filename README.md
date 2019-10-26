@@ -22,6 +22,10 @@ Clone or import project .
 >>mvn install
 or 
 Right Click on TestRunner class and Click Run As > JUnit Test
+
+## Import errors related to eclispe ide 
+Issues can resolve by following document in below path
+Navigate to project directory folder "">> frameworksetup >> .pdf"
 # View HTML Report
 HTML report will be generated once execution finish \Assurity\Report\.html
 Open Index.html in browser to see the reports
@@ -44,6 +48,6 @@ Adding Maven build actions
 
 # References
 http://rest-assured.io/  
-https://cucumber.io/docs/guides/api-automation/
+https://cucumber.io/docs/guides/api-automation/  
 https://dzone.com/articles/cucumber-selenium-jenkins-integration
 
